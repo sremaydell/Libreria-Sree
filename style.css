@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(beige, #ac18c0 );
+}
+.Container{
+    border: solid 1px rgba(255, 255, 255, 0.2);
+}
+thead{
+    background: rgba(243, 140, 210, 0.4);
+}
+th{
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+td{
+    padding: 15px;
+    border-bottom: solid rgba(255, 255, 255, 0.2);
+}
+tbody tr:hover{
+    background: rgba(243, 103, 199, 0.4);
+}
